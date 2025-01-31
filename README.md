@@ -1,23 +1,23 @@
 # 🚗 Sistema de Gerenciamento de Frota de Veículos 🚛
 
-Um projeto Python + FastAPI para gerenciar veículos, motoristas e manutenções de forma eficiente. 🛠️  
+Projeto Python + FastAPI para gestão eficiente de veículos, motoristas e manutenções. 🛠️  
 
 ---
 
 ## 📋 Funcionalidades
 
 ### 🚙 **Veículos**
-- Cadastrar, editar, excluir e listar veículos.
-- Controlar status (Disponível, Em Manutenção, Em Uso).
+- CRUD de veículos.
+- Controle de status (Disponível, Em Manutenção, Em Uso).
 
 ### 👨‍✈️ **Motoristas**
-- Cadastrar, editar, excluir e listar motoristas.
-- Associar motoristas a veículos.
-- Controlar status (Disponível, Em Viagem).
+- CRUD de motoristas.
+- Associação a veículos.
+- Controle de status (Disponível, Em Viagem).
 
 ### 🔧 **Manutenções**
-- Registrar manutenções com custo, descrição e data.
-- Histórico de manutenções por veículo.
+- Registro de manutenções com custo, descrição e data.
+- Histórico por veículo.
 
 ---
 
@@ -30,34 +30,14 @@ Um projeto Python + FastAPI para gerenciar veículos, motoristas e manutenções
 
 ---
 
-## 🚀 Como Executar
+## 🎥 Vídeo Demonstrativo
 
-1. **Instale as dependências:**
-   ```bash
-   pip install fastapi uvicorn
-## Execute o projeto:
-   ```bash
-   uvicorn main:app --reload
-## Acesse a API:
-   ```bash
-   http://127.0.0.1:8000
+[Assista aqui](https://www.youtube.com/watch?v=0AB1eibNQ5s)
 
 ---
 
-## 🧪 Testes
-Use o Postman para testar os endpoints.
-Importe a coleção postman_collection.json da pasta tests/.
+## 👨‍💻 Desenvolvedores
 
-## 📚 Documentação
-Postman: Importe a coleção postman_collection.json.
+- [Matheus Carneiro](https://github.com/MatheusCarneir0)
+- [Paulo Victor](https://github.com/PauloVictorCT3604)
 
-Online: Link da documentação (se publicada).
-
-🎥 Vídeo de Demonstração
-Assista ao vídeo de demonstração:
-🔗 Link do Vídeo
-
-👨‍💻 Desenvolvedores
-Matheus Carneiro 👨‍💻
-
-Paulo Victor 👩‍💻
