@@ -35,30 +35,20 @@ Um projeto Python + FastAPI para gerenciar veículos, motoristas e manutenções
 1. **Instale as dependências:**
    ```bash
    pip install fastapi uvicorn
-Execute o projeto:
+## Execute o projeto:
+   ```bash
+   uvicorn main:app --reload
+## Acesse a API:
+   ```bash
+   http://127.0.0.1:8000
 
-bash
-Copy
-uvicorn main:app --reload
-Acesse a API:
+---
 
-Copy
-http://127.0.0.1:8000
-🧪 Testes
+## 🧪 Testes
 Use o Postman para testar os endpoints.
 Importe a coleção postman_collection.json da pasta tests/.
 
-📂 Estrutura do Projeto
-Copy
-frota_veiculos/
-├── models/              # Modelos das entidades
-├── dao/                 # Acesso aos dados
-├── services/            # Lógica de negócios
-├── controllers/         # Endpoints da API
-├── tests/               # Testes (Postman)
-├── main.py              # Arquivo principal
-├── README.md            # Este arquivo
-📚 Documentação
+## 📚 Documentação
 Postman: Importe a coleção postman_collection.json.
 
 Online: Link da documentação (se publicada).
