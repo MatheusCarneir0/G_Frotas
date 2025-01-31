@@ -1,51 +1,73 @@
 # 🚗 Sistema de Gerenciamento de Frota de Veículos 🚛
 
-Bem-vindo ao **Sistema de Gerenciamento de Frota de Veículos**! Este projeto foi desenvolvido para ajudar empresas a gerenciar sua frota de veículos, motoristas e manutenções de forma eficiente. 🛠️
+Um projeto Python + FastAPI para gerenciar veículos, motoristas e manutenções de forma eficiente. 🛠️  
 
 ---
 
-## 📋 Funcionalidades Principais
-
-O sistema oferece as seguintes funcionalidades:
+## 📋 Funcionalidades
 
 ### 🚙 **Veículos**
-- ✅ Cadastrar, editar, excluir e listar veículos.
-- 🚦 Controlar o status do veículo (Disponível, Em Manutenção, Em Uso).
+- Cadastrar, editar, excluir e listar veículos.
+- Controlar status (Disponível, Em Manutenção, Em Uso).
 
 ### 👨‍✈️ **Motoristas**
-- 👤 Cadastrar, editar, excluir e listar motoristas.
-- 🚗 Associar motoristas a veículos.
-- 🚦 Controlar o status do motorista (Disponível, Em Viagem).
+- Cadastrar, editar, excluir e listar motoristas.
+- Associar motoristas a veículos.
+- Controlar status (Disponível, Em Viagem).
 
 ### 🔧 **Manutenções**
-- 🛠️ Registrar manutenções realizadas em veículos.
-- 💸 Registrar custos e descrições das manutenções.
-- 📅 Registrar a data da manutenção.
+- Registrar manutenções com custo, descrição e data.
+- Histórico de manutenções por veículo.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias
 
 - **Python** 🐍
 - **FastAPI** ⚡
-- **Postman** 📬 (para testes)
+- **Postman** 📬 (testes)
 - **Pydantic** 🛡️ (validação de dados)
-- **JSON** 📄 (armazenamento em memória)
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🚀 Como Executar
 
-Siga os passos abaixo para configurar e executar o projeto localmente:
+1. **Instale as dependências:**
+   ```bash
+   pip install fastapi uvicorn
+Execute o projeto:
 
-### 1. **Pré-requisitos**
-- Python 3.8 ou superior instalado.
-- Pip (gerenciador de pacotes do Python).
+bash
+Copy
+uvicorn main:app --reload
+Acesse a API:
 
-### 2. **Instalação das Dependências**
-No terminal, execute:
-```bash
-pip install fastapi uvicorn
+Copy
+http://127.0.0.1:8000
+🧪 Testes
+Use o Postman para testar os endpoints.
+Importe a coleção postman_collection.json da pasta tests/.
 
-3. Executar o Projeto
-Navegue até a pasta do projeto e execute:
+📂 Estrutura do Projeto
+Copy
+frota_veiculos/
+├── models/              # Modelos das entidades
+├── dao/                 # Acesso aos dados
+├── services/            # Lógica de negócios
+├── controllers/         # Endpoints da API
+├── tests/               # Testes (Postman)
+├── main.py              # Arquivo principal
+├── README.md            # Este arquivo
+📚 Documentação
+Postman: Importe a coleção postman_collection.json.
+
+Online: Link da documentação (se publicada).
+
+🎥 Vídeo de Demonstração
+Assista ao vídeo de demonstração:
+🔗 Link do Vídeo
+
+👨‍💻 Desenvolvedores
+Matheus Carneiro 👨‍💻
+
+Paulo Victor 👩‍💻
