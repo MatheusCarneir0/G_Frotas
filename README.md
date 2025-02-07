@@ -91,27 +91,6 @@ Este é um sistema de gerenciamento de frota desenvolvido com **FastAPI** e **Ji
 └── 📄 README.md           # Documentação do projeto
 ```
 
----
-
-## 🧑‍💻 Como Contribuir
-
-1. Faça um fork do projeto. 🍴
-2. Crie uma branch para sua feature:
-   ```bash
-   git checkout -b minha-feature
-   ```
-3. Commit suas mudanças:
-   ```bash
-   git commit -m "Adicionei uma nova funcionalidade"
-   ```
-4. Envie para o repositório remoto:
-   ```bash
-   git push origin minha-feature
-   ```
-5. Abra um Pull Request. 🚀
-
----
-
 ## 👨‍💻 Desenvolvedores
 
 - [Matheus Carneiro](https://github.com/MatheusCarneir0)
