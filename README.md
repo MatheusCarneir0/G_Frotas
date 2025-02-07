@@ -1,4 +1,3 @@
-```markdown
 # 🚗 Sistema de Gerenciamento de Frota 🚛
 
 Este é um sistema de gerenciamento de frota desenvolvido com **FastAPI** e **Jinja2**. Ele permite gerenciar veículos, motoristas e manutenções de forma simples e eficiente. 🛠️
@@ -117,4 +116,3 @@ Este é um sistema de gerenciamento de frota desenvolvido com **FastAPI** e **Ji
 
 - [Matheus Carneiro](https://github.com/MatheusCarneir0)
 - [Paulo Victor](https://github.com/PauloVictorCT3604)
-```
